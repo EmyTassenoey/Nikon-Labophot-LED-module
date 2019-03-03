@@ -1,8 +1,8 @@
 # Nikon-Labophot-LED-module
 LED module for Nikon Labophot (UV and Visible spectrum)
 
-![Assembly](Nikon Labophot - Assembly v12.png)
+![Assembly](https://github.com/EmyTassenoey/Nikon-Labophot-LED-module/blob/master/Nikon%20Labophot%20-%20Assembly%20v12.png)
 
-![LED module](LED module v16.png)
+![LED module](https://github.com/EmyTassenoey/Nikon-Labophot-LED-module/blob/master/LED%20module%20v16.png)
 
-![Electronic board](LED module electronic board.png)
+![Electronic board](https://github.com/EmyTassenoey/Nikon-Labophot-LED-module/blob/master/LED%20module%20electronic%20board.png)
