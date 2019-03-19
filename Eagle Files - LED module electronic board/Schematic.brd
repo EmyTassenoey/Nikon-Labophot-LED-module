@@ -157,7 +157,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYjI2N2I0" projecturn="a.cGVyc29uYWw6dWUyYjI2N2I0IzIwMTcwOTAxOTA2NzgyODE" f3durn="urn:adsk.wipprod:dm.lineage:6GncY3L6S8qHhpXXGHIO-A" pcbguid="c076c7f6-f98b-4770-9c04-7120ef74dbe8" lastpulledtime="" lastsyncedchangeguid="168a07d3-ac94-f938-486a-87856d6dfaa1"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYjI2N2I0" projecturn="a.cGVyc29uYWw6dWUyYjI2N2I0IzIwMTcwOTAxOTA2NzgyODE" f3durn="urn:adsk.wipprod:dm.lineage:6GncY3L6S8qHhpXXGHIO-A" pcbguid="c076c7f6-f98b-4770-9c04-7120ef74dbe8" lastpulledtime="" lastsyncedchangeguid="b84cecf9-df35-d3de-ebe7-257acc63ca98"/>
 <plain>
 <wire x1="1.5875" y1="68.2625" x2="32.0475" y2="68.2625" width="0" layer="20"/>
 <wire x1="32.0475" y1="68.2625" x2="32.0475" y2="98.73" width="0" layer="20"/>
@@ -1391,31 +1391,6 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 Operational amplifiers,  comparators, voltage regulators, ADCs, DACs, etc.&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="SOT223" urn="urn:adsk.eagle:footprint:28484/1" library_version="4">
-<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
-<wire x1="3.2766" y1="1.778" x2="3.2766" y2="-1.778" width="0.2032" layer="21"/>
-<wire x1="3.2766" y1="-1.778" x2="-3.2766" y2="-1.778" width="0.2032" layer="21"/>
-<wire x1="-3.2766" y1="-1.778" x2="-3.2766" y2="1.778" width="0.2032" layer="21"/>
-<wire x1="-3.2766" y1="1.778" x2="3.2766" y2="1.778" width="0.2032" layer="21"/>
-<smd name="1" x="-2.3114" y="-3.0988" dx="1.2192" dy="2.2352" layer="1"/>
-<smd name="2" x="0" y="-3.0988" dx="1.2192" dy="2.2352" layer="1"/>
-<smd name="3" x="2.3114" y="-3.0988" dx="1.2192" dy="2.2352" layer="1"/>
-<smd name="4" x="0" y="3.099" dx="3.6" dy="2.2" layer="1"/>
-<text x="1.0208" y="-4.318" size="0.8128" layer="21" ratio="12">3</text>
-<text x="1.905" y="2.54" size="0.8128" layer="21" ratio="12">4</text>
-<text x="-3.4526" y="-4.318" size="0.8128" layer="21" ratio="12">1</text>
-<text x="-1.2906" y="-4.3274" size="0.8128" layer="21" ratio="12">2</text>
-<text x="-2.54" y="0.0508" size="1.27" layer="25">&gt;NAME</text>
-<text x="-2.54" y="-1.3208" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
-<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
-<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
-<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
-<rectangle x1="-1.6002" y1="1.8034" x2="1.6002" y2="3.6576" layer="51"/>
-<rectangle x1="-0.4318" y1="-3.6576" x2="0.4318" y2="-1.8034" layer="51"/>
-<rectangle x1="-2.7432" y1="-3.6576" x2="-1.8796" y2="-1.8034" layer="51"/>
-<rectangle x1="1.8796" y1="-3.6576" x2="2.7432" y2="-1.8034" layer="51"/>
-</package>
 <package name="DIL08" urn="urn:adsk.eagle:footprint:16129/1" library_version="4">
 <description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
 <wire x1="5.08" y1="2.921" x2="-5.08" y2="2.921" width="0.1524" layer="21"/>
@@ -1437,12 +1412,6 @@ Operational amplifiers,  comparators, voltage regulators, ADCs, DACs, etc.&lt;p&
 </package>
 </packages>
 <packages3d>
-<package3d name="SOT223" urn="urn:adsk.eagle:package:28541/2" type="model" library_version="4">
-<description>Small Outline Transistor</description>
-<packageinstances>
-<packageinstance name="SOT223"/>
-</packageinstances>
-</package3d>
 <package3d name="DIL08" urn="urn:adsk.eagle:package:16409/2" type="model" library_version="4">
 <description>Dual In Line Package</description>
 <packageinstances>
@@ -1513,6 +1482,27 @@ Operational amplifiers,  comparators, voltage regulators, ADCs, DACs, etc.&lt;p&
 <text x="-8.128" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
 <text x="-7.62" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;Value</text>
 </package>
+<package name="SOT230P700X180-4" urn="urn:adsk.eagle:footprint:9947856/1" library_version="7" library_locally_modified="yes">
+<description>4-SOT223, 2.30 mm pitch, 7.00 mm span, 6.50 X 3.50 X 1.80 mm body
+&lt;p&gt;4-pin SOT223 package with 2.30 mm pitch, 7.00 mm span with body size 6.50 X 3.50 X 1.80 mm&lt;/p&gt;</description>
+<circle x="-2.9276" y="3.2486" radius="0.25" width="0" layer="21"/>
+<wire x1="-1.85" y1="2.9986" x2="-1.85" y2="3.35" width="0.12" layer="21"/>
+<wire x1="-1.85" y1="3.35" x2="1.85" y2="3.35" width="0.12" layer="21"/>
+<wire x1="1.85" y1="3.35" x2="1.85" y2="1.8486" width="0.12" layer="21"/>
+<wire x1="-1.85" y1="-2.9986" x2="-1.85" y2="-3.35" width="0.12" layer="21"/>
+<wire x1="-1.85" y1="-3.35" x2="1.85" y2="-3.35" width="0.12" layer="21"/>
+<wire x1="1.85" y1="-3.35" x2="1.85" y2="-1.8486" width="0.12" layer="21"/>
+<wire x1="1.85" y1="-3.35" x2="-1.85" y2="-3.35" width="0.12" layer="51"/>
+<wire x1="-1.85" y1="-3.35" x2="-1.85" y2="3.35" width="0.12" layer="51"/>
+<wire x1="-1.85" y1="3.35" x2="1.85" y2="3.35" width="0.12" layer="51"/>
+<wire x1="1.85" y1="3.35" x2="1.85" y2="-3.35" width="0.12" layer="51"/>
+<smd name="1" x="-3.0226" y="2.3" dx="1.9651" dy="0.8891" layer="1"/>
+<smd name="2" x="-3.0226" y="0" dx="1.9651" dy="0.8891" layer="1"/>
+<smd name="3" x="-3.0226" y="-2.3" dx="1.9651" dy="0.8891" layer="1"/>
+<smd name="4" x="3.0226" y="0" dx="1.9651" dy="3.1891" layer="1"/>
+<text x="0" y="4.1336" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.985" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="1X02_NO_SILK" urn="urn:adsk.eagle:package:8804921/7" type="model" library_version="7" library_locally_modified="yes">
@@ -1535,6 +1525,13 @@ Operational amplifiers,  comparators, voltage regulators, ADCs, DACs, etc.&lt;p&
 &lt;p&gt;&lt;a href="http://www.top-up.com.tw/front/bin/download.phtml?Part=16M1SHB-A&amp;Nbr=42285&amp;Category=60664"&gt;Datasheet&lt;/a&gt; (Top Up 16M1SHB-B3-20KM-A2K-16Y)&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="POT-SWITCH-PTH"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT230P700X180-4" urn="urn:adsk.eagle:package:9947855/1" type="model" library_version="7" library_locally_modified="yes">
+<description>4-SOT223, 2.30 mm pitch, 7.00 mm span, 6.50 X 3.50 X 1.80 mm body
+&lt;p&gt;4-pin SOT223 package with 2.30 mm pitch, 7.00 mm span with body size 6.50 X 3.50 X 1.80 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOT230P700X180-4"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1789,10 +1786,6 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="-6.985" y="60.96" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="25.781" y="88.9635" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="IC1" library="linear" library_urn="urn:adsk.eagle:library:262" package="SOT223" package3d_urn="urn:adsk.eagle:package:28541/2" value="AMS1117-1.5" x="8.255" y="83.82" smashed="yes" rot="MR0">
-<attribute name="NAME" x="4.445" y="81.9658" size="1.27" layer="26" rot="MR0"/>
-<attribute name="VALUE" x="10.795" y="82.4992" size="1.27" layer="28" rot="MR0"/>
-</element>
 <element name="IC2" library="linear" library_urn="urn:adsk.eagle:library:262" package="DIL08" package3d_urn="urn:adsk.eagle:package:16409/2" value="LM358N" x="20.955" y="83.82" smashed="yes" rot="R270">
 <attribute name="NAME" x="18.034" y="89.154" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="20.32" y="87.376" size="1.27" layer="27" ratio="10" rot="R270"/>
@@ -1838,10 +1831,13 @@ design rules under a new name.</description>
 <attribute name="NAME" x="25.0698" y="83.185" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="23.495" y="83.185" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
+<element name="U$2" library="untitled" library_urn="urn:adsk.eagle:library:8804918" package="SOT230P700X180-4" package3d_urn="urn:adsk.eagle:package:9947855/1" value="VREG-AMS1117-1.5" x="8.255" y="83.5025" smashed="yes" rot="MR270">
+<attribute name="NAME" x="4.1214" y="83.5025" size="1.27" layer="26" rot="MR270" align="bottom-center"/>
+<attribute name="VALUE" x="12.24" y="83.5025" size="1.27" layer="28" rot="MR270" align="top-center"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
-<contactref element="IC1" pad="4"/>
 <contactref element="IC2" pad="4"/>
 <contactref element="R2" pad="1"/>
 <contactref element="R6" pad="2"/>
@@ -1861,43 +1857,39 @@ design rules under a new name.</description>
 </polygon>
 <contactref element="U$3" pad="2"/>
 <contactref element="U$1" pad="3"/>
-<wire x1="8.255" y1="86.919" x2="8.255" y2="94.615" width="0" layer="19" extent="16-16"/>
-<wire x1="4.705" y1="86.36" x2="8.255" y2="86.919" width="0" layer="19" extent="1-16"/>
-<wire x1="14.605" y1="88.417" x2="8.255" y2="86.919" width="0" layer="19" extent="16-16"/>
-<wire x1="6.655" y1="78.74" x2="4.705" y2="86.36" width="0" layer="19" extent="1-1"/>
+<contactref element="U$2" pad="1"/>
+<wire x1="8.255" y1="94.615" x2="15.955" y2="97.155" width="0" layer="19" extent="1-1"/>
+<wire x1="14.605" y1="88.417" x2="15.955" y2="97.155" width="0" layer="19" extent="16-16"/>
 <wire x1="17.145" y1="80.01" x2="14.605" y2="88.417" width="0" layer="19" extent="16-16"/>
 <wire x1="23.755" y1="75.565" x2="17.145" y2="80.01" width="0" layer="19" extent="1-1"/>
-<wire x1="15.955" y1="97.155" x2="6.655" y2="78.74" width="0" layer="19" extent="1-1"/>
+<wire x1="4.705" y1="86.36" x2="8.255" y2="94.615" width="0" layer="19" extent="1-1"/>
+<wire x1="6.655" y1="78.74" x2="4.705" y2="86.36" width="0" layer="19" extent="1-1"/>
+<wire x1="5.955" y1="86.5251" x2="6.655" y2="78.74" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
-<contactref element="IC1" pad="3"/>
 <contactref element="R1" pad="1"/>
 <contactref element="C2" pad="+"/>
-<wire x1="5.7023" y1="80.8101" x2="5.9436" y2="80.7212" width="0.3556" layer="16"/>
-<wire x1="9.855" y1="78.74" x2="9.855" y2="77.775" width="0.3556" layer="1"/>
-<wire x1="5.9436" y1="80.7212" x2="6.0325" y2="80.6323" width="0.3556" layer="16"/>
+<wire x1="9.855" y1="77.775" x2="9.855" y2="78.74" width="0.3556" layer="1"/>
 <wire x1="14.453" y1="79.223" x2="14.605" y2="79.223" width="0.3556" layer="16"/>
 <wire x1="14.605" y1="79.223" x2="12.5345" y2="77.1525" width="0.3556" layer="16"/>
-<wire x1="12.5345" y1="77.1525" x2="8.255" y2="77.1525" width="0.3556" layer="16"/>
-<wire x1="9.855" y1="77.775" x2="9.2325" y2="77.1525" width="0.3556" layer="1"/>
-<wire x1="9.2325" y1="77.1525" x2="8.255" y2="77.1525" width="0.3556" layer="1"/>
-<via x="8.255" y="77.1525" extent="1-16" drill="0.3556"/>
-<wire x1="8.255" y1="77.1525" x2="6.6675" y2="77.1525" width="0.3556" layer="16"/>
-<wire x1="6.6675" y1="77.1525" x2="6.0325" y2="77.7875" width="0.3556" layer="16"/>
-<wire x1="6.0325" y1="77.7875" x2="6.0325" y2="80.6323" width="0.3556" layer="16"/>
+<via x="10.7127" y="77.1525" extent="1-16" drill="0.3556"/>
+<wire x1="10.7127" y1="77.1525" x2="10.16" y2="77.1525" width="0.356" layer="1"/>
+<wire x1="10.16" y1="77.1525" x2="9.855" y2="77.4575" width="0.356" layer="1"/>
+<wire x1="9.855" y1="77.4575" x2="9.855" y2="77.775" width="0.356" layer="1"/>
+<wire x1="12.5345" y1="77.1525" x2="10.7127" y2="77.1525" width="0.356" layer="16"/>
+<wire x1="8.89" y1="77.1525" x2="8.255" y2="77.7875" width="0.356" layer="16"/>
+<wire x1="8.89" y1="77.1525" x2="10.7127" y2="77.1525" width="0.356" layer="16"/>
+<contactref element="U$2" pad="2"/>
+<contactref element="U$2" pad="4"/>
+<wire x1="8.255" y1="77.7875" x2="8.255" y2="80.4799" width="0.356" layer="16"/>
+<wire x1="8.255" y1="80.4799" x2="8.255" y2="86.5251" width="1.067" layer="16"/>
 </signal>
 <signal name="VCC">
-<contactref element="IC1" pad="1"/>
 <contactref element="C1" pad="+"/>
 <contactref element="IC2" pad="8"/>
-<wire x1="10.45754375" y1="80.645" x2="10.5664" y2="80.7212" width="0.3556" layer="16"/>
-<wire x1="10.16" y1="81.1276" x2="10.5664" y2="80.7212" width="0.3556" layer="16"/>
 <wire x1="24.765" y1="87.63" x2="23.495" y2="86.36" width="0.3556" layer="1"/>
 <wire x1="23.495" y1="86.36" x2="11.805" y2="86.36" width="0.3556" layer="1"/>
-<wire x1="10.5664" y1="80.7212" x2="10.6426" y2="80.645" width="1.067" layer="16"/>
 <wire x1="11.805" y1="86.36" x2="11.805" y2="83.82" width="1.067" layer="1"/>
-<wire x1="10.5664" y1="80.7212" x2="10.5664" y2="82.5814" width="1.067" layer="16"/>
-<wire x1="10.5664" y1="82.5814" x2="11.805" y2="83.82" width="1.067" layer="16"/>
 <via x="11.805" y="83.82" extent="1-16" drill="1.067"/>
 <wire x1="11.7475" y1="86.4175" x2="11.805" y2="86.36" width="1.067" layer="1"/>
 <contactref element="U$4" pad="2"/>
@@ -1908,6 +1900,9 @@ design rules under a new name.</description>
 <wire x1="15.8525" y1="91.7575" x2="15.955" y2="91.655" width="1.067" layer="1"/>
 <wire x1="11.805" y1="73.4" x2="10.795" y2="72.39" width="1.067" layer="1"/>
 <wire x1="11.805" y1="83.82" x2="11.805" y2="73.4" width="1.067" layer="1"/>
+<contactref element="U$2" pad="3"/>
+<wire x1="10.555" y1="85.07" x2="10.555" y2="86.5251" width="1.067" layer="16"/>
+<wire x1="11.805" y1="83.82" x2="10.555" y2="85.07" width="1.067" layer="16"/>
 </signal>
 <signal name="N$2">
 <contactref element="IC2" pad="3"/>
